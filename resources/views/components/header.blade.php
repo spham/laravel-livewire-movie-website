@@ -98,7 +98,6 @@
                 @endrole
                 <form method="POST" action="{{ route('logout') }}">
                     @csrf
-
                     <a href="{{ route('logout') }}"
                         class="block px-4 py-2 text-sm text-gray-700 hover:bg-indigo-600 hover:text-white" onclick="event.preventDefault();
                                                 this.closest('form').submit();">

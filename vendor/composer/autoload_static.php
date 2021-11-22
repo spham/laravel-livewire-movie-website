@@ -33,11 +33,12 @@ class ComposerStaticInit586a09e0e6bb3659e6497b2545214b94
         '58571171fd5812e6e447dce228f52f4d' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/helpers.php',
         '8825ede83f2f289127722d4e842cf7e8' => __DIR__ . '/..' . '/symfony/polyfill-intl-grapheme/bootstrap.php',
         '9cdd7b9056abc3081735233ba9dd9c7f' => __DIR__ . '/..' . '/facade/flare-client-php/src/helpers.php',
+        '40275907c8566c390185147049ef6e5d' => __DIR__ . '/..' . '/livewire/livewire/src/helpers.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         'b6b991a57620e2fb6b2f66f03fe9ddc2' => __DIR__ . '/..' . '/symfony/string/Resources/functions.php',
         'ed962a97bd972bc82007176b647d4e36' => __DIR__ . '/..' . '/facade/ignition/src/helpers.php',
-        '40275907c8566c390185147049ef6e5d' => __DIR__ . '/..' . '/livewire/livewire/src/helpers.php',
         '377b22b161c09ed6e5152de788ca020a' => __DIR__ . '/..' . '/spatie/laravel-permission/src/helpers.php',
+        '9b8a2a2d973cd41064633975025ab60a' => __DIR__ . '/..' . '/usernotnull/tall-toasts/src/helpers.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -53,6 +54,10 @@ class ComposerStaticInit586a09e0e6bb3659e6497b2545214b94
         array (
             'Whoops\\' => 7,
             'Webmozart\\Assert\\' => 17,
+        ),
+        'U' => 
+        array (
+            'Usernotnull\\Toast\\' => 18,
         ),
         'T' => 
         array (
@@ -89,6 +94,8 @@ class ComposerStaticInit586a09e0e6bb3659e6497b2545214b94
             'Symfony\\Component\\CssSelector\\' => 30,
             'Symfony\\Component\\Console\\' => 26,
             'Spatie\\Permission\\' => 18,
+            'Spatie\\LaravelPackageTools\\Database\\Factories\\' => 46,
+            'Spatie\\LaravelPackageTools\\' => 27,
         ),
         'R' => 
         array (
@@ -213,6 +220,10 @@ class ComposerStaticInit586a09e0e6bb3659e6497b2545214b94
         array (
             0 => __DIR__ . '/..' . '/webmozart/assert/src',
         ),
+        'Usernotnull\\Toast\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/usernotnull/tall-toasts/src',
+        ),
         'TijsVerkoyen\\CssToInlineStyles\\' => 
         array (
             0 => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src',
@@ -332,6 +343,14 @@ class ComposerStaticInit586a09e0e6bb3659e6497b2545214b94
         'Spatie\\Permission\\' => 
         array (
             0 => __DIR__ . '/..' . '/spatie/laravel-permission/src',
+        ),
+        'Spatie\\LaravelPackageTools\\Database\\Factories\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spatie/laravel-package-tools/database/factories',
+        ),
+        'Spatie\\LaravelPackageTools\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spatie/laravel-package-tools/src',
         ),
         'Ramsey\\Uuid\\' => 
         array (
@@ -591,8 +610,16 @@ class ComposerStaticInit586a09e0e6bb3659e6497b2545214b94
         'App\\Actions\\Jetstream\\DeleteUser' => __DIR__ . '/../..' . '/app/Actions/Jetstream/DeleteUser.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
+        'App\\Http\\Controllers\\AdminController' => __DIR__ . '/../..' . '/app/Http/Controllers/AdminController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
+        'App\\Http\\Livewire\\CastIndex' => __DIR__ . '/../..' . '/app/Http/Livewire/CastIndex.php',
+        'App\\Http\\Livewire\\EpisodeIndex' => __DIR__ . '/../..' . '/app/Http/Livewire/EpisodeIndex.php',
+        'App\\Http\\Livewire\\GenreIndex' => __DIR__ . '/../..' . '/app/Http/Livewire/GenreIndex.php',
+        'App\\Http\\Livewire\\MovieIndex' => __DIR__ . '/../..' . '/app/Http/Livewire/MovieIndex.php',
+        'App\\Http\\Livewire\\SeasonIndex' => __DIR__ . '/../..' . '/app/Http/Livewire/SeasonIndex.php',
+        'App\\Http\\Livewire\\SerieIndex' => __DIR__ . '/../..' . '/app/Http/Livewire/SerieIndex.php',
+        'App\\Http\\Livewire\\TagIndex' => __DIR__ . '/../..' . '/app/Http/Livewire/TagIndex.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',
         'App\\Http\\Middleware\\EncryptCookies' => __DIR__ . '/../..' . '/app/Http/Middleware/EncryptCookies.php',
         'App\\Http\\Middleware\\PreventRequestsDuringMaintenance' => __DIR__ . '/../..' . '/app/Http/Middleware/PreventRequestsDuringMaintenance.php',
@@ -5023,6 +5050,9 @@ class ComposerStaticInit586a09e0e6bb3659e6497b2545214b94
         'SebastianBergmann\\Type\\UnknownType' => __DIR__ . '/..' . '/sebastian/type/src/UnknownType.php',
         'SebastianBergmann\\Type\\VoidType' => __DIR__ . '/..' . '/sebastian/type/src/VoidType.php',
         'SebastianBergmann\\Version' => __DIR__ . '/..' . '/sebastian/version/src/Version.php',
+        'Spatie\\LaravelPackageTools\\Exceptions\\InvalidPackage' => __DIR__ . '/..' . '/spatie/laravel-package-tools/src/Exceptions/InvalidPackage.php',
+        'Spatie\\LaravelPackageTools\\Package' => __DIR__ . '/..' . '/spatie/laravel-package-tools/src/Package.php',
+        'Spatie\\LaravelPackageTools\\PackageServiceProvider' => __DIR__ . '/..' . '/spatie/laravel-package-tools/src/PackageServiceProvider.php',
         'Spatie\\Permission\\Commands\\CacheReset' => __DIR__ . '/..' . '/spatie/laravel-permission/src/Commands/CacheReset.php',
         'Spatie\\Permission\\Commands\\CreatePermission' => __DIR__ . '/..' . '/spatie/laravel-permission/src/Commands/CreatePermission.php',
         'Spatie\\Permission\\Commands\\CreateRole' => __DIR__ . '/..' . '/spatie/laravel-permission/src/Commands/CreateRole.php',
@@ -5858,6 +5888,16 @@ class ComposerStaticInit586a09e0e6bb3659e6497b2545214b94
         'TijsVerkoyen\\CssToInlineStyles\\Css\\Rule\\Processor' => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src/Css/Rule/Processor.php',
         'TijsVerkoyen\\CssToInlineStyles\\Css\\Rule\\Rule' => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src/Css/Rule/Rule.php',
         'UnhandledMatchError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php',
+        'Usernotnull\\Toast\\Concerns\\WireToast' => __DIR__ . '/..' . '/usernotnull/tall-toasts/src/Concerns/WireToast.php',
+        'Usernotnull\\Toast\\Controllers\\CanPretendToBeAFile' => __DIR__ . '/..' . '/usernotnull/tall-toasts/src/Controllers/CanPretendToBeAFile.php',
+        'Usernotnull\\Toast\\Controllers\\JavaScriptAssets' => __DIR__ . '/..' . '/usernotnull/tall-toasts/src/Controllers/JavaScriptAssets.php',
+        'Usernotnull\\Toast\\Http\\Livewire\\ToastComponent' => __DIR__ . '/..' . '/usernotnull/tall-toasts/src/Http/Livewire/ToastComponent.php',
+        'Usernotnull\\Toast\\Notification' => __DIR__ . '/..' . '/usernotnull/tall-toasts/src/Notification.php',
+        'Usernotnull\\Toast\\NotificationType' => __DIR__ . '/..' . '/usernotnull/tall-toasts/src/NotificationType.php',
+        'Usernotnull\\Toast\\Toast' => __DIR__ . '/..' . '/usernotnull/tall-toasts/src/Toast.php',
+        'Usernotnull\\Toast\\ToastBladeDirectives' => __DIR__ . '/..' . '/usernotnull/tall-toasts/src/ToastBladeDirectives.php',
+        'Usernotnull\\Toast\\ToastManager' => __DIR__ . '/..' . '/usernotnull/tall-toasts/src/ToastManager.php',
+        'Usernotnull\\Toast\\ToastServiceProvider' => __DIR__ . '/..' . '/usernotnull/tall-toasts/src/ToastServiceProvider.php',
         'ValueError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/ValueError.php',
         'Webmozart\\Assert\\Assert' => __DIR__ . '/..' . '/webmozart/assert/src/Assert.php',
         'Webmozart\\Assert\\InvalidArgumentException' => __DIR__ . '/..' . '/webmozart/assert/src/InvalidArgumentException.php',
